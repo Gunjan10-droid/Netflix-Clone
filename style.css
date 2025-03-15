@@ -178,7 +178,7 @@ section.first > div :nth-child(2){
     max-width: 60vw;
     cursor: pointer;
 }
-.faq span{
+.faq .member{
     font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
     height: calc(100% - 100px);
     align-items: center;
@@ -187,7 +187,6 @@ section.first > div :nth-child(2){
     flex-direction: column;
     color: white;
     position: relative;
-    gap: 23px;
     padding: 0 30px;
     top: 23px;
 }
@@ -196,7 +195,7 @@ section.first > div :nth-child(2){
     justify-content: center;
     align-items: center;
     gap: 16px;
-    padding: 42px;
+    padding: 23px;
 }
 .faq input{
     padding: 10px 101px 6px 11px;
